@@ -1,0 +1,1 @@
+/home/rocky/rust/testcodes/target/debug/testcodes: /home/rocky/rust/testcodes/src/block.rs /home/rocky/rust/testcodes/src/blockchain.rs /home/rocky/rust/testcodes/src/main.rs /home/rocky/rust/testcodes/src/transaction.rs

@@ -7,7 +7,7 @@ fn print_type_of<T>(_: &T) {
 }
 fn main() {
     println!("开始猜数!");
-    let rand_number = rand::thread_rng().gen_range(1..=100);
+    let rand_number = rand::thread_rng().gen_range(1000..=9999);
     print_type_of(&rand_number); 
     loop {
         println!("请输入你猜的数.");

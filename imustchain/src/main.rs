@@ -23,7 +23,7 @@ fn main() {
         println!("Tx :{}, {} send to {}", i+1, sender, recipient);
         let mut tx = Transaction::new((i+1) as u64,format!("{} sent to {}", sender, recipient));
         tx.tx_hash=tx.hash_cal();
-         sender = recipient; 
+        sender = recipient; 
         println!();
         transaction.push(tx);
      }
