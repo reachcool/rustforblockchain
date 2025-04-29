@@ -5,7 +5,7 @@ use block::Block;
 use transaction::Transaction;
 use blockchain::Blockchain;
 fn main() {
-    let traders = vec!["Alice", "Bob", "John", "Obama", "Biden", "Trump", "Bush"];
+    let traders = vec!["Alice", "Bob", "John", "Obama", "Biden", "Trump", "Bush","Musk"];
     let miner = traders[0].to_string();
     let mut testchain = Blockchain::new();
     let mut transaction = Vec::new(); 
