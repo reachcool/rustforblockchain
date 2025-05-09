@@ -1,0 +1,8 @@
+[package]
+name = "ring"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ring = "0.17.7"
+rand = "0.8"
